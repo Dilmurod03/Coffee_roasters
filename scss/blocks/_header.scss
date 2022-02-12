@@ -9,3 +9,8 @@
 .header__item-link {
   color: $links-color;
 }
+.nav {
+  &__list {
+    display: flex;
+  }
+}

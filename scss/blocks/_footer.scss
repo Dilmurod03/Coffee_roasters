@@ -38,11 +38,18 @@
 .footer__icons {
   @include basic-area;
   margin-left: 369px;
+  display: flex;
 }
 
 .footer__icon-link {
+  
   margin-right: 24px;
+  text-decoration: none; 
+  color: #FEFCF7;;
   &:last-child {
     margin-right: 0;
   }
+} 
+.icon:hover{
+  color: #FDD6BA;
 }
